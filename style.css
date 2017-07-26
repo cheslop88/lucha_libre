@@ -1,0 +1,62 @@
+body {
+    background: url("wall.jpg") repeat fixed center;
+    font-family: 'Chango', cursive;
+}
+.container {
+    background-color: #faebd7;
+    font-size:56px;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+h1, h4 {
+    font-size: 96px;
+    background-color: green;
+}
+h2 {
+    font-size: 72px;
+    background-color: black;
+}
+h3 {
+    font-size: 64px;
+    background-color: red;
+}
+.lucha {
+    border: 10px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.lucha:nth-child(odd) {
+    background-color: green;
+}
+.lucha:nth-child(even) {
+    background-color: red;
+}
+.btn {
+    text-align: center;
+    background-color: green;
+    color: #fff;
+    text-transform: uppercase;
+    border: 5px solid #fff;
+}
+.match:nth-child(odd) {
+    background-color: green;
+}
+.match:nth-child(even) {
+    background-color: red;
+}
+.match {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+.winner {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
